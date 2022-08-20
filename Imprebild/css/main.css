@@ -139,6 +139,12 @@ button {
   background: url("../images/bg-pattern-01.jpg") center center/cover fixed no-repeat;
 }
 
+
+
+
+
+
+
 /* BLOCK REVEALER */
 .block-revealer {
   position: absolute;
@@ -1297,7 +1303,18 @@ a:hover {
 
 .mainColor {
   color:#FF6600;
-  border-color: #FF6600;
+  background: #FF6600;
+  ;
+}
+
+.button-color{
+  color:#FF6600;
+  border-color: #ff6600;
+}
+
+.specialization-logo{
+  text-align: center;
+  width: 90px;
 }
 
 /* a.logo{
@@ -3114,6 +3131,8 @@ a:hover {
   margin-bottom: 9px;
 }
 
+
+
 .section-title--light .title-1 {
   color: #fff;
   line-height: -webkit-calc(48/38);
@@ -3481,7 +3500,7 @@ a:hover {
    ========================================================================== */
 .title-sub {
   font-size: 11px;
-  color: #999;
+  color: #ff6600;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-weight: 400;
@@ -5133,7 +5152,7 @@ button {
 }
 
 .footer p {
-  color: #fff;
+  color: #000;
 }
 
 @media (max-width: 991px) {
@@ -5203,6 +5222,9 @@ button {
 }
 
 /* HEADER 1 */
+
+
+
 .header-1 .header__content-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5373,7 +5395,7 @@ button {
 }
 
 .hamburger {
-  border: 1px solid #888;
+  border: 1px solid #ff6600;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5463,6 +5485,10 @@ button {
   width: 12px;
   height: 11px;
 }
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+  background-color:#ff6600;
+}
+ 
 
 .hamburger.hamburger--sm .hamburger-box .hamburger-inner {
   width: 12px;
@@ -5506,6 +5532,7 @@ button {
   padding: 17px 22px;
 }
 
+
 /* ==========================================================================
    #MENU
    ========================================================================== */
@@ -5515,13 +5542,20 @@ button {
 
 .menu a {
   font-size: 13px;
-  color: #222;
   text-transform: capitalize;
 }
 
-.menu a:hover {
-  color: #333;
+
+
+.menu a:hover:after {
+  content: "";
+  display: block;
+  width: 40 px;
+  border-bottom: 2px solid;
+  border-color: #000;
+  margin: 0 5;
 }
+
 
 .menu-item {
   display: inline-block;
@@ -5532,7 +5566,10 @@ button {
   display: block;
   padding: 26px 22px;
   color: #FF6600;
+  
 }
+
+
 
 .menu-item-has-children {
   position: relative;
@@ -5551,6 +5588,7 @@ button {
 
 .menu-mobile {
   background: #f8f8f8;
+  text-align: center;
 }
 
 .menu-mobile .menu-item {
@@ -5750,6 +5788,32 @@ button {
 .btn-close:hover {
   color: red;
 }
+
+.navbar-fixed-top  {
+  top:-70px;
+  opacity:0;
+  }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */ /* Set a background color */
+    color: #ff6600; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    
+    
+
+   
+  }
+  
+  #myBtn:hover {
+    color:#000; /* Add a dark-grey background on hover */
+  }
 
 .menu-sidebar-nav-menu {
   margin-bottom: 80px;
@@ -6777,12 +6841,12 @@ button {
 }
 
 .widget-address ul li {
-  color: #ebebeb;
+  color: #000000;
   padding: 1px 0;
 }
 
 .widget_pages ul li a {
-  color: #ebebeb;
+  color: #000000;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -7693,12 +7757,12 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background:  #FF6600;
   z-index: 0;
 }
 
 .bg-overlay--p85 {
-  background: rgba(0, 0, 0, 0.85);
+  background: #FF6600;
 }
 
 .bg-parallax {
