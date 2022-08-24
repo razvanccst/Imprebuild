@@ -965,7 +965,7 @@ a:hover {
 }
 
 .media-about .media__text {
-  margin-bottom: 84px;
+  
 }
 
 .media-about .media__img {
@@ -1315,6 +1315,11 @@ a:hover {
 .specialization-logo{
   text-align: center;
   width: 90px;
+}
+
+.no-decor{
+  text-decoration: none;
+  color:black;
 }
 
 /* a.logo{
@@ -2668,7 +2673,7 @@ a:hover {
 .au-rev-arrow-2:before,
 .au-rev-arrow-3:before,
 .au-rev-arrow-4:before {
-  font-size: 24px;
+  font-size: 48px;
   color: #222;
 }
 
@@ -4190,14 +4195,17 @@ button {
   position: absolute;
   top: 50%;
   margin-top: -20px;
+  
 }
 
 .media__img--slide .slick-next {
   right: 20px;
+  
 }
 
 .media__img--slide .slick-prev {
   left: 20px;
+  
 }
 
 .media__img--zoom {
@@ -4237,9 +4245,7 @@ button {
   margin-bottom: 0;
 }
 
-.media__text {
-  margin-bottom: 0;
-}
+
 
 .media__link-overlay {
   position: absolute;
@@ -6329,6 +6335,40 @@ button {
   border-color: #222 !important;
 }
 
+.bold{
+  font-weight: bold;
+  
+}
+
+.imprebild{
+  font-size:18px;
+}
+
+.list{
+  list-style-type: circle;
+  padding-bottom: 24px;
+  margin-bottom:24px;
+}
+
+.more-about{
+ 
+  padding-left:10px;
+  background-color:#ff6600;
+  color:#fff;
+  margin-bottom: 24px;
+
+}
+
+
+.check-projects{
+
+  /* position: absolute;
+  left: 50%;
+  margin-top:50px;
+  margin-bottom: 50px; */
+
+}
+
 /* ==========================================================================
    #PROJECT POST
    ========================================================================== */
@@ -6701,7 +6741,7 @@ button {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-size: 24px;
+  font-size: 48px;
   color: #222;
 }
 
